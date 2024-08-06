@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
+body {
+  margin: 0;
+  background: #eee;
+  font-family: Besley, serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px 10px;
+}
+
+.profile-image {
+  display: flex;
+  flex-direction: row;
+  background: rebeccapurple;
+  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+  border-radius: 70%;
+  width: 48px;
+  height: 48px;
+}
+
+.logo {
+  color: rebeccapurple;
+  font-size: 32px;
+  font-weight: 900;
+  font-style: italic;
+  /* margin: 10px; */
+}
+
+button {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  border-radius: 8px;
+  background: rebeccapurple;
+  color: white;
+  padding: 8px 24px;
+}
+
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: rebeccapurple;
+  margin: 0 10px;
+  font-size: 18px;
+
+}
+
+
+
+ul {
+  display: flex;
+  list-style-type: none;
+  /* margin-right: 950px; */
+}
+
+
+.block {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+}
+
+
+.container {
+  display: flex;
+}
+
+
+.container-links {
+  display: flex;
+  align-items: center;
+}
